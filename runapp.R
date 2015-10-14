@@ -1,3 +1,11 @@
+#################################################################################
+#### Author: Fedor Kolyadin
+#### Date: April, 2015
+#### Description: An R implementation of the (multiple) Support Vector Machine 
+#### Recursive Feature Elimination (mSVM-RFE) feature ranking algorithm
+#### NOTE: update project location in setwd
+#################################################################################
+
 # Uncomment install packages if running first time and need to install them
 # install.packages("shiny")
 # install.packages("xts")
@@ -18,6 +26,6 @@ library(reshape2)
 library(xlsx)
 library(rCharts)
 
-x<-setwd("C:/Bitnami/wampstack-5.4.37-0/apache2/htdocs/hydra/")
+x<-setwd("/xxx/")
 shinyAppDir(x)
 runApp("ARIMA_gdp")
